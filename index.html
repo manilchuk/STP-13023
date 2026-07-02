@@ -1,142 +1,124 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/evpl_vite_template/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/STP-13023/favicon-16x16.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="500x500"
+      href="/STP-13023/favicon-500x500.png"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/evpl_vite_template/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/evpl_vite_template/assets/styles-BvvI0Brj.css">
+    <script type="module" crossorigin src="/STP-13023/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/STP-13023/assets/styles-DakAbYQ0.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <div class="wrapper">
-      <nav class="nav">
-        <a class="nav-logo" href="./index.html" aria-label="Site logo">
-          <svg class="nav-logo-icon" width="100" height="30">
-            <use href="/evpl_vite_template/assets/sprite-E8vg0sBb.svg#logo"></use>
+    <header class="page-header">
+  <div class="container header-container">
+    <a class="header-logo-link" href="#">
+      <img class="logo" src="/STP-13023/assets/logo-CNrFwLM0.png" alt="logo" />
+    </a>
+    <nav class="header-nav">
+      <ul class="header-nav-list">
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#product">About the Game</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#about-us">How to Play</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#FAQ">Features</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#testimonial">Gallery</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#catalog">Reviews</a>
+        </li>
+        <li class="menu-nav-item">
+          <a class="menu-nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <button type="button" class="burger" data-menu-open>
+      <svg class="icon-burger" width="32" height="32">
+        <use href="/STP-13023/assets/sprite-LAnA8FLO.svg#icon-burger-menu"></use>
+      </svg>
+    </button>
+    <div class="mobile-menu" data-menu>
+      <div class="mobile-menu-container">
+        <button type="button" class="mobile-menu-close" data-menu-close>
+          <svg class="icon-close-overlay" width="32" height="32">
+            <use href="./img/icons.svg#icon-x"></use>
           </svg>
-          <svg class="nav-logo-icon" width="100" height="30">
-            <use href="/evpl_vite_template/assets/sprite-E8vg0sBb.svg#logo"></use>
-          </svg>
+        </button>
+        <a class="menu-logo" href="../index.html">
+          <img src="./img/logo-dark.svg" alt="logo" />
         </a>
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="header__burger-wrapper">
-        <button type="button" class="burger-btn" data-action="open">Open menu</button>
-        <div class="burger-menu" data-visible="close">
-          <ul>
-            <li><a href="#">link-1</a></li>
-            <li><a href="#">link-2</a></li>
-            <li><a href="#">link-3</a></li>
-            <li><a href="#">link-4</a></li>
+        <nav class="menu-nav">
+          <ul class="menu-nav-list">
+            <li class="menu-nav-item">
+              <a class="menu-nav-link" href="#product">About the Game</a>
+            </li>
+            <li class="menu-nav-item">
+              <a class="menu-nav-link" href="#about-us">How to Play</a>
+            </li>
+            <li class="menu-nav-item">
+              <a class="menu-nav-link" href="#FAQ">Features</a>
+            </li>
+            <li class="menu-nav-item">
+              <a class="menu-nav-link" href="#testimonial">Gallery</a>
+            </li>
+            <li class="menu-nav-item">
+              <a class="menu-nav-link" href="#product">Reviews</a>
+            </li>
+            <li class="menu-nav-item">
+              <a class="menu-nav-link" href="#">Contact</a>
+            </li>
           </ul>
-          <button type="button" class="btn-close" data-action="close">close</button>
-        </div>
+        </nav>
       </div>
     </div>
   </div>
 </header>
 
+
     <main>
       <!-- Loads the specified .html file -->
-      <section class="vite-promo">
-  <div class="container">
-    <div class="vite-promo-thumb">
-      <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
-      >
-        <!-- Path to images as from index.html file -->
-        <img
-          class="pic"
-          src="/evpl_vite_template/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
-        />
-      </a>
-    </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT
-      </a>
-    </h1>
-  </div>
+      <section class="hero">
+  <div class="container"></div>
 </section>
 
-      <article class="badges">
-  <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HTML Inject
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Full Reload
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sort Media Queries
-        </a>
-      </li>
-    </ul>
-  </div>
-</article>
+      <section class="about">
+  <div class="container"></div>
+</section>
+
+      <section class="">
+  <div class="container"></div>
+</section>
+
+      <section class="">
+  <div class="container"></div>
+</section>
+
+      <section class="">
+  <div class="container"></div>
+</section>
+
+      <section class="">
+  <div class="container"></div>
+</section>
+
+      <section class="">
+  <div class="container"></div>
+</section>
 
     </main>
 
     <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
+  <div class="container"></div>
 </footer>
 
 
