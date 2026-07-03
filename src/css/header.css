@@ -1,6 +1,5 @@
 /* #region header */
 .page-header {
-  padding: 14px 0;
   background-color: #fe41da;
 
   position: sticky;
@@ -11,6 +10,8 @@
   height: 60px;
 }
 .header-container {
+  width: 100%;
+  padding: 0 32px;
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -60,12 +61,12 @@
 
 @media screen and (min-width: 1440px) {
   .page-header {
-    padding: 18px 0;
     border-radius: 0 0 40px 40px;
     height: 84px;
   }
   .header-container {
     height: 84px;
+    padding: 0 80px;
   }
   .header-logo-link {
     height: 48px;
@@ -131,11 +132,9 @@ body.menu-open::before {
   position: absolute;
   top: 0;
   right: 0;
-  /* padding-right: calc(50% - 368px); */
   border-radius: 0 0 20px 20px;
   height: 330px;
   min-width: 182px;
-  /* width: fit-content; */
   background-color: #9c76f3;
   opacity: 0;
   visibility: hidden;
