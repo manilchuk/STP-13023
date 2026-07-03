@@ -9,11 +9,33 @@
   margin: auto;
   padding-top: 20%;
 }
+@media screen and (min-resolution: 192dpi) {
+  .hero {
+    background-image: url('../img/hero/hero@2x-mobi.jpg');
+  }
+}
 
+@media (min-width: 1440px) {
+  .hero {
+    background-image: url('../img/hero/hero-desktop.jpg');
+  }
+}
+
+@media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: url('../img/hero/hero@2x-desktop.jpg');
+  }
+}
 .hero-title-img {
   margin: 0 auto;
   width: 60%;
   height: auto;
+}
+
+@media (min-width: 1440px) {
+  .hero-title-svg {
+    display: flex;
+  }
 }
 .blur-circle {
   border-radius: 100%;
