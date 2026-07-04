@@ -79,6 +79,9 @@ body {
   padding: 0;
   background-color: #c0f4ff;
 }
+body.no-scroll {
+  overflow: hidden;
+}
 
 main {
   flex-grow: 1;
