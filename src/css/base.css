@@ -70,36 +70,6 @@ html {
   scroll-behavior: smooth;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-ol {
-  margin: 0;
-  padding: 0;
-}
-ul,
-ol {
-  list-style: none;
-}
-a {
-  color: inherit;
-  text-decoration: none;
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-button {
-  font: inherit;
-  cursor: pointer;
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -112,9 +82,6 @@ body {
 
 main {
   flex-grow: 1;
-}
-main:has(.back-link) {
-  text-align: center;
 }
 
 .visually-hidden {
