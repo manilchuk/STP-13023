@@ -14,37 +14,50 @@
     background-image: url('../img/hero/hero@2x-mobi.jpg');
   }
 }
-
 @media (min-width: 1440px) {
   .hero {
     background-image: url('../img/hero/hero-desktop.jpg');
+    aspect-ratio: 1440/980;
+    padding-top: 140px;
   }
 }
 
 @media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
   .hero {
     background-image: url('../img/hero/hero@2x-desktop.jpg');
+    aspect-ratio: 1440/980;
   }
-}
-.hero-title-img {
-  margin: 0 auto;
-  width: 60%;
-  height: auto;
-}
-.over {
-  position: relative;
-  z-index: 2;
 }
 
+.hero-title-svg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title-top {
+  max-width: 205px;
+  min-height: 37px;
+}
 @media (min-width: 1440px) {
-  .hero-title-svg {
-    display: flex;
-    flex-direction: column;
-  }
-  .hidden {
-    display: none;
+  .hero-title-top {
+    max-width: 1154px;
+    min-height: 156px;
   }
 }
+
+.hero-title-bottom-img {
+  max-width: 270px;
+  min-height: 41px;
+}
+@media (min-width: 1440px) {
+  .hero-title-bottom-img {
+    max-width: 487px;
+    min-height: 75px;
+  }
+}
+
 .blur-circle {
   position: relative;
   display: block;
@@ -52,7 +65,11 @@
   z-index: 1;
   border-radius: 100%;
   margin: 0 auto;
-  max-width: 100%;
+}
+@media (min-width: 1440px) {
+  .blur-circle {
+    padding: 60px 0 40px;
+  }
 }
 
 .blur-circle::before {
@@ -71,6 +88,12 @@
   z-index: -1;
   pointer-events: none;
 }
+@media (min-width: 1440px) {
+  .blur-circle::before {
+    max-width: 497px;
+    min-height: 274px;
+  }
+}
 
 .hero-title {
   position: relative;
@@ -79,11 +102,60 @@
   font-family: 'Baloo 2', sans-serif;
   font-weight: 700;
   text-align: center;
-  font-size: clamp(18px, 4.5vw, 24px);
+  font-size: 18px;
   max-width: 214px;
   line-height: 1.2;
   margin: 0 auto;
   color: #813d06;
+}
+@media (min-width: 1440px) {
+  .hero-title {
+    font-size: 24px;
+    max-width: 287px;
+  }
+}
+
+.hero-link {
+  display: flex;
+  margin: 0 auto;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  max-width: 217px;
+  width: 100%;
+  background-color: #9c76f3;
+  height: 48px;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: 'Baloo 2', sans-serif;
+  color: #fff;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #b899ff;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero-link {
+    font-size: 24px;
+    max-width: 330px;
+    height: 64px;
+  }
+}
+
+.google-icon {
+  height: 24px;
+  width: 24px;
+}
+@media (min-width: 1440px) {
+  .google-icon {
+    height: 32px;
+    width: 32px;
+  }
 }
 
 .hero-wave {
@@ -98,20 +170,20 @@
   background-position: bottom center;
 }
 
-.hero-link {
-  display: flex;
-  margin: 0 auto;
-  gap: 12px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 40px;
-  max-width: 217px;
-  width: 100%;
-  background-color: #9c76f3;
-  height: 48px;
-  text-align: center;
-  font-weight: 700;
-  font-size: 16px;
-  font-family: 'Baloo 2', sans-serif;
-  color: #fff;
+@media (min-width: 1440px) {
+  .hero-wave {
+    background-image: url('../img/hero/wave-desktop.png');
+    height: 175px;
+  }
+}
+
+.over {
+  position: relative;
+  z-index: 2;
+}
+
+@media (min-width: 1440px) {
+  .hidden {
+    display: none;
+  }
 }
