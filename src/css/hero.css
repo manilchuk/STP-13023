@@ -99,7 +99,6 @@
   position: relative;
   z-index: 2;
   margin: 0;
-  font-family: 'Baloo 2', sans-serif;
   font-weight: 700;
   text-align: center;
   font-size: 18px;
@@ -129,8 +128,6 @@
   line-height: 1.2;
   text-align: center;
   font-weight: 700;
-  font-size: 16px;
-  font-family: 'Baloo 2', sans-serif;
   color: #fff;
   transition: background-color 0.3s ease;
 
