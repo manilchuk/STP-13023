@@ -1,5 +1,6 @@
 .privacy-container {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .back-link {
@@ -46,6 +47,13 @@
   font-size: 14px;
   line-height: 1.2;
   color: #4b5563;
+}
+.privacy-text-last {
+  font-family: 'Baloo 2', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #4b5563;
   margin-bottom: 20px;
 }
 .consent {
@@ -62,6 +70,7 @@
 @media screen and (min-width: 1440px) {
   .privacy-container {
     padding-top: 140px;
+    padding-bottom: 140px;
   }
   .back-link {
     gap: 12px;
@@ -85,6 +94,9 @@
     margin-bottom: 12px;
   }
   .privacy-text {
+    font-size: 16px;
+  }
+  .privacy-text-last {
     font-size: 16px;
     margin-bottom: 40px;
   }
