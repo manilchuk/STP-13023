@@ -1,0 +1,189 @@
+.hero {
+  position: relative;
+  background-image: url('../img/hero/hero-mobi.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  aspect-ratio: 375 / 570;
+  margin: auto;
+  padding-top: 20%;
+}
+@media screen and (min-resolution: 192dpi) {
+  .hero {
+    background-image: url('../img/hero/hero@2x-mobi.jpg');
+  }
+}
+@media (min-width: 1440px) {
+  .hero {
+    background-image: url('../img/hero/hero-desktop.jpg');
+    aspect-ratio: 1440/980;
+    padding-top: 140px;
+  }
+}
+
+@media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: url('../img/hero/hero@2x-desktop.jpg');
+    aspect-ratio: 1440/980;
+  }
+}
+
+.hero-title-svg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title-top {
+  max-width: 205px;
+  min-height: 37px;
+}
+@media (min-width: 1440px) {
+  .hero-title-top {
+    max-width: 1154px;
+    min-height: 156px;
+  }
+}
+
+.hero-title-bottom-img {
+  max-width: 270px;
+  min-height: 41px;
+}
+@media (min-width: 1440px) {
+  .hero-title-bottom-img {
+    max-width: 487px;
+    min-height: 75px;
+  }
+}
+
+.blur-circle {
+  position: relative;
+  display: block;
+  padding: 20px;
+  z-index: 1;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 1440px) {
+  .blur-circle {
+    padding: 60px 0 40px;
+  }
+}
+
+.blur-circle::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  min-width: 200px;
+  min-height: 200px;
+  border-radius: 50%;
+  background-color: #c0f4ff;
+  filter: blur(40px);
+  z-index: -1;
+  pointer-events: none;
+}
+@media (min-width: 1440px) {
+  .blur-circle::before {
+    max-width: 497px;
+    min-height: 274px;
+  }
+}
+
+.hero-title {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  font-family: 'Baloo 2', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 18px;
+  max-width: 214px;
+  line-height: 1.2;
+  margin: 0 auto;
+  color: #813d06;
+}
+@media (min-width: 1440px) {
+  .hero-title {
+    font-size: 24px;
+    max-width: 287px;
+  }
+}
+
+.hero-link {
+  display: flex;
+  margin: 0 auto;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  max-width: 217px;
+  width: 100%;
+  background-color: #9c76f3;
+  height: 48px;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: 'Baloo 2', sans-serif;
+  color: #fff;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #b899ff;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero-link {
+    font-size: 24px;
+    max-width: 330px;
+    height: 64px;
+  }
+}
+
+.google-icon {
+  height: 24px;
+  width: 24px;
+}
+@media (min-width: 1440px) {
+  .google-icon {
+    height: 32px;
+    width: 32px;
+  }
+}
+
+.hero-wave {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 12%;
+  background-image: url('../img/hero/wave.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: bottom center;
+}
+
+@media (min-width: 1440px) {
+  .hero-wave {
+    background-image: url('../img/hero/wave-desktop.png');
+    height: 175px;
+  }
+}
+
+.over {
+  position: relative;
+  z-index: 2;
+}
+
+@media (min-width: 1440px) {
+  .hidden {
+    display: none;
+  }
+}
