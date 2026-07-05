@@ -1,3 +1,5 @@
+import './css/style.css';
+
 (() => {
   const refs = {
     openModalBtn: document.querySelector('[data-menu-open]'),
