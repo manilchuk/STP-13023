@@ -14,7 +14,7 @@
     background-image: url('../img/hero/hero@2x-mobi.jpg');
   }
 }
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .hero {
     background-image: url('../img/hero/hero-desktop.jpg');
     aspect-ratio: 1440/980;
@@ -40,7 +40,7 @@
   max-width: 205px;
   min-height: 37px;
 }
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .hero-title-top {
     max-width: 1154px;
     min-height: 156px;
@@ -51,7 +51,7 @@
   max-width: 270px;
   min-height: 41px;
 }
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .hero-title-bottom-img {
     max-width: 487px;
     min-height: 75px;
@@ -66,7 +66,7 @@
   border-radius: 100%;
   margin: 0 auto;
 }
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .blur-circle {
     padding: 60px 0 40px;
   }
@@ -88,7 +88,7 @@
   z-index: -1;
   pointer-events: none;
 }
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .blur-circle::before {
     max-width: 497px;
     min-height: 274px;
@@ -107,7 +107,7 @@
   margin: 0 auto;
   color: #813d06;
 }
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .hero-title {
     font-size: 24px;
     max-width: 287px;
@@ -136,7 +136,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .hero-link {
     font-size: 24px;
     max-width: 330px;
@@ -167,7 +167,7 @@
   background-position: bottom center;
 }
 
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .hero-wave {
     background-image: url('../img/hero/wave-desktop.png');
     height: 175px;
@@ -179,7 +179,7 @@
   z-index: 2;
 }
 
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .hidden {
     display: none;
   }
