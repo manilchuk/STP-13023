@@ -8,7 +8,7 @@
 
 @media (min-width: 1440px) {
   .about-container {
-    padding: 60px 80px;
+    padding: 60px 80px 140px;
     display: grid;
     grid-template-columns: 460px 788px;
     grid-template-rows: auto 1fr;
