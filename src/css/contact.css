@@ -16,7 +16,7 @@
 .contact-img {
   border-radius: 20px;
   max-width: 311px;
-  height: 60px;
+  height: auto;
   width: 100%;
 }
 @media screen and (min-width: 1440px) {

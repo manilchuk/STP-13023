@@ -68,8 +68,17 @@
   border-radius: 100%;
   border: 3px solid #f7e5cf;
   margin: 0 auto 32px;
+  max-width: 140px;
+  width: 100%;
+  height: auto;
 }
-
+@media screen and (min-width: 1440px) {
+  .how-to-play-img {
+    border: 4px solid #f7e5cf;
+    margin: 0 auto 40px;
+    max-width: 180px;
+  }
+}
 .how-to-play-item-title {
   font-family: 'Luckiest Guy', sans-serif;
   font-size: 14px;
