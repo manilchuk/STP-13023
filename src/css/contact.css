@@ -49,7 +49,7 @@
   .contact-img {
     border-radius: 40px;
     max-width: 842px;
-    height: 119px;
+    min-height: 119px;
     width: 100%;
   }
 }

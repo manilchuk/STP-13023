@@ -7,7 +7,7 @@
 .reviews-card-item {
   padding: 9px;
   max-width: 150px;
-  height: 74px;
+  min-height: 74px;
   width: 100%;
   background-color: #fff;
   border-radius: 3px;
@@ -22,9 +22,6 @@
   font-size: 6px;
   line-height: 1.4;
   color: #4b5563;
-  max-width: 132px;
-  width: 100%;
-  height: 16px;
   margin: 0;
 }
 .reviews-author {
@@ -38,4 +35,18 @@
   color: #813d06;
 }
 @media screen and (min-width: 1440px) {
+  .reviews-card-item {
+    padding: 24px;
+    max-width: 405px;
+    width: 100%;
+    min-height: 200px;
+  }
+  .reviews-feedback {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .reviews-name {
+    font-weight: 600;
+    font-size: 16px;
+  }
 }
