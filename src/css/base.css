@@ -100,3 +100,21 @@ main {
   white-space: nowrap;
   border: 0;
 }
+
+.luckiest-title {
+  font-family: 'Luckiest Guy', sans-serif;
+  color: #ffb738;
+  -webkit-text-stroke: 4px #813d06;
+  paint-order: stroke fill;
+  text-transform: uppercase;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.subtitle {
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: #813d06;
+  text-align: center;
+}
