@@ -1,10 +1,41 @@
 .reviews-cards {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 11px;
+  row-gap: 12px;
 }
 .reviews-card-item {
+  padding: 9px;
   max-width: 150px;
   height: 74px;
   width: 100%;
   background-color: #fff;
+  border-radius: 3px;
+  border: 1.5px solid #9c76f3;
+}
+.reviews-card-item:last-child {
+  max-width: 311px;
+  width: 100%;
+}
+.reviews-feedback {
+  font-family: 'Inter', sans-serif;
+  font-size: 6px;
+  line-height: 1.4;
+  color: #4b5563;
+  max-width: 132px;
+  width: 100%;
+  height: 16px;
+  margin: 0;
+}
+.reviews-author {
+  display: flex;
+}
+.reviews-name {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 5px;
+  line-height: 1.4;
+  color: #813d06;
+}
+@media screen and (min-width: 1440px) {
 }
