@@ -1,3 +1,7 @@
+.reviews-cards {
+  display: flex;
+  flex-direction: column;
+}
 .reviews-card-item {
   max-width: 150px;
   height: 74px;
