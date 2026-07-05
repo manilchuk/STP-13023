@@ -20,9 +20,10 @@
   }
 }
 
-@media screen and(min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .how-to-play-subtitle {
     font-size: 20px;
+    margin-bottom: 40px;
   }
 }
 .how-to-play-list {
