@@ -7,16 +7,8 @@
   }
 }
 .how-to-play-title {
-  font-family: 'Luckiest Guy', sans-serif;
   font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #ffb738;
-  -webkit-text-stroke: 4px #813d06;
-  paint-order: stroke fill;
-  text-transform: uppercase;
-  margin-bottom: 2px;
+  margin-bottom: 8px;
 }
 @media screen and (min-width: 1440px) {
   .how-to-play-title {
@@ -28,14 +20,6 @@
   }
 }
 
-.how-to-play-subtitle {
-  font-weight: 800;
-  line-height: 1.2;
-  letter-spacing: -0.01em;
-  color: #813d06;
-  margin-bottom: 40px;
-  text-align: center;
-}
 @media screen and(min-width: 1440px) {
   .how-to-play-subtitle {
     font-size: 20px;

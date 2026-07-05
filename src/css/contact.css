@@ -4,21 +4,9 @@
 }
 
 .contact-title {
-  font-family: 'Luckiest Guy', sans-serif;
   font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #ffb738;
-  -webkit-text-stroke: 4px #813d06;
-  paint-order: stroke fill;
-  text-transform: uppercase;
 }
-.contact-text {
-  font-weight: 800;
-  line-height: 1.2;
-  letter-spacing: -0.01em;
-  color: #813d06;
-}
+
 .contact-subtitle {
   margin-bottom: 12px;
 }
