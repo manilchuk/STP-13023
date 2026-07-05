@@ -22,7 +22,7 @@
 @media screen and (min-width: 1440px) {
   .contact-container {
     display: flex;
-    gap: 56px;
+    justify-content: space-between;
   }
   .contact-info {
     text-align: start;
@@ -32,12 +32,19 @@
     font-size: 40px;
     -webkit-text-stroke: 8px #813d06;
     margin-bottom: 4px;
+    text-align: start;
   }
   .contact-text {
     font-size: 20px;
   }
   .contact-subtitle {
     margin-bottom: 20px;
+    text-align: start;
+    font-size: 20px;
+  }
+  .contact-email {
+    font-size: 20px;
+    text-align: start;
   }
   .contact-img {
     border-radius: 40px;
