@@ -10,20 +10,50 @@
   text-transform: uppercase;
   margin-bottom: 2px;
 }
-.how-to-play-descr {
+.how-to-play-subtitle {
   font-weight: 800;
   line-height: 1.2;
   letter-spacing: -0.01em;
   color: #813d06;
   margin-bottom: 40px;
+  text-align: center;
 }
 .how-to-play-list {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 20px;
 }
-.how-to-play-items {
+.how-to-play-item {
   background-color: #9c76f3;
   border-radius: 20px;
   max-width: 215px;
+  padding: 32px 0 18px;
+}
+.how-to-play-item:nth-child(even) {
+  justify-self: end;
+}
+
+.how-to-play-img {
+  border-radius: 100%;
+  outline: 3px solid #f7e5cf;
+  margin: 0 auto 32px;
+}
+
+.how-to-play-item-title {
+  font-family: 'Luckiest Guy', sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #f7e5cf;
+  -webkit-text-stroke: 4px #813d06;
+  paint-order: stroke fill;
+  text-transform: uppercase;
+}
+.how-to-play-item-text {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.2;
+  text-align: center;
+  color: #fff;
 }
