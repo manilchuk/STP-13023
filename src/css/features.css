@@ -3,7 +3,7 @@
   height: 757px;
   background-image: url(../img/features/features-background-mobile.png);
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 100% 757px;
   padding-top: 80px;
   padding-bottom: 80px;
   max-width: 100%;
@@ -94,6 +94,7 @@
     padding-top: 225px;
     padding-bottom: 356px;
     height: 1256px;
+    background-size: 100% 1256px;
   }
   .features-title {
     font-size: 40px;
