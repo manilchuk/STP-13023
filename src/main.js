@@ -27,4 +27,16 @@
       }
     });
   });
+
+  // burger animation
+  const hotspot = document.querySelector('.hero-hotspot');
+  const burger = document.querySelector('.hero-burger');
+
+  hotspot.addEventListener('mouseenter', () => {
+    burger.classList.add('show');
+  });
+
+  hotspot.addEventListener('mouseleave', () => {
+    burger.classList.remove('show');
+  });
 })();
