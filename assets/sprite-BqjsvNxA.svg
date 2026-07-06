@@ -1,0 +1,33 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-back-to-home-button" viewBox="0 0 32 32">
+<path fill="#813d06" style="fill: var(--color1, #813d06)" d="M21.412 28.728c0.375-0.375 0.586-0.884 0.586-1.414s-0.211-1.039-0.586-1.414l-9.9-9.9 9.9-9.9c0.353-0.379 0.545-0.88 0.536-1.398s-0.219-1.012-0.585-1.378c-0.366-0.366-0.86-0.577-1.378-0.586s-1.019 0.182-1.399 0.534l-11.316 11.312c-0.375 0.375-0.586 0.884-0.586 1.414s0.211 1.039 0.586 1.414l11.313 11.316c0.375 0.375 0.884 0.586 1.414 0.586s1.039-0.211 1.414-0.586z"></path>
+</symbol>
+<symbol id="icon-burger-menu" viewBox="0 0 32 32">
+<path fill="none" stroke="currentColor" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.75" d="M28 24h-24M28 16h-24M28 8h-24"></path>
+</symbol>
+<symbol id="icon-close-button-burger-menu" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color2, #fff)" d="M16 18.829l7.071 7.071c0.375 0.375 0.884 0.586 1.415 0.586s1.040-0.211 1.415-0.586c0.375-0.375 0.586-0.884 0.586-1.415s-0.211-1.039-0.586-1.415l-7.073-7.071 7.072-7.071c0.186-0.186 0.333-0.406 0.433-0.649s0.152-0.503 0.152-0.765c0-0.263-0.052-0.523-0.152-0.765s-0.248-0.463-0.434-0.649c-0.186-0.186-0.406-0.333-0.649-0.433s-0.503-0.152-0.765-0.152c-0.263 0-0.523 0.052-0.765 0.152s-0.463 0.248-0.649 0.434l-7.069 7.071-7.071-7.071c-0.184-0.191-0.405-0.344-0.649-0.449s-0.506-0.16-0.772-0.163c-0.266-0.002-0.529 0.048-0.775 0.149s-0.469 0.249-0.657 0.437c-0.188 0.188-0.336 0.411-0.437 0.657s-0.151 0.509-0.149 0.775c0.002 0.266 0.057 0.528 0.162 0.772s0.257 0.465 0.448 0.649l7.073 7.072-7.072 7.072c-0.191 0.185-0.343 0.405-0.448 0.649s-0.16 0.506-0.162 0.772c-0.002 0.265 0.049 0.529 0.149 0.775s0.249 0.469 0.437 0.657 0.411 0.336 0.657 0.436c0.246 0.101 0.509 0.151 0.775 0.148s0.528-0.058 0.772-0.163c0.244-0.105 0.465-0.257 0.649-0.448l7.069-7.069z"></path>
+</symbol>
+<symbol id="icon-google-play" viewBox="0 0 31 32">
+      <path fill="#ea4335" d="M.1 29.3c.6 2 2.8 3.1 5 2.6q.5 0 .9-.4l16.7-8.6L15 16z" style="fill:var(--color1, #ea4335)"/>
+      <path fill="#fbbc04" d="m14.7 15.6 8 7.3 7.2-3.7c2-1 2.6-3 1.7-4.8q-.7-1-1.7-1.5l-7.2-3.7z" style="fill:var(--color2, #fbbc04)"/>
+      <path fill="#4285f4" d="M0 3.6v24.8l.1 1 15-13.4L0 2.7z" style="fill:var(--color3, #4285f4)"/>
+      <path fill="#34a853" d="m15 16 7.7-6.7L6 .5Q5.2 0 4 0A4 4 0 0 0 0 2.6z" style="fill:var(--color4, #34a853)"/>
+    </symbol>
+    <symbol id="icon-Rating-4" viewBox="0 0 172 32">
+<path fill="#ffd323" style="fill: var(--color1, #ffd323); stroke: var(--color2, #813d06)" stroke="#813d06" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.963" d="M14.814 2.469l3.815 7.728 8.531 1.247-6.173 6.012 1.457 8.494-7.63-4.012-7.63 4.012 1.457-8.494-6.173-6.012 8.531-1.247 3.815-7.728z"></path>
+<path fill="#ffd323" style="fill: var(--color1, #ffd323); stroke: var(--color2, #813d06)" stroke="#813d06" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.963" d="M50.37 2.469l3.815 7.728 8.531 1.247-6.173 6.012 1.457 8.494-7.63-4.012-7.63 4.012 1.457-8.494-6.173-6.012 8.531-1.247 3.815-7.728z"></path>
+<path fill="#ffd323" style="fill: var(--color1, #ffd323); stroke: var(--color2, #813d06)" stroke="#813d06" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.963" d="M85.926 2.469l3.815 7.728 8.531 1.247-6.173 6.012 1.457 8.494-7.63-4.012-7.63 4.012 1.457-8.494-6.173-6.012 8.531-1.247 3.815-7.728z"></path>
+<path fill="#ffd323" style="fill: var(--color1, #ffd323); stroke: var(--color2, #813d06)" stroke="#813d06" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.963" d="M121.482 2.469l3.815 7.728 8.531 1.247-6.173 6.012 1.457 8.494-7.63-4.012-7.63 4.012 1.457-8.494-6.173-6.012 8.531-1.247 3.815-7.728z"></path>
+<path fill="#fff" style="fill: var(--color3, #fff); stroke: var(--color2, #813d06)" stroke="#813d06" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.963" d="M157.037 2.469l3.815 7.728 8.531 1.247-6.173 6.012 1.457 8.494-7.63-4.012-7.63 4.012 1.457-8.494-6.173-6.012 8.531-1.247 3.815-7.728z"></path>
+</symbol>
+<symbol id="icon-Rating-5" viewBox="0 0 172 32">
+<path fill="#ffd323" style="fill: var(--color1, #ffd323); stroke: var(--color2, #813d06)" stroke="#813d06" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.963" d="M14.814 2.469l3.815 7.728 8.531 1.247-6.173 6.012 1.457 8.494-7.63-4.012-7.63 4.012 1.457-8.494-6.173-6.012 8.531-1.247 3.815-7.728z"></path>
+<path fill="#ffd323" style="fill: var(--color1, #ffd323); stroke: var(--color2, #813d06)" stroke="#813d06" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.963" d="M50.37 2.469l3.815 7.728 8.531 1.247-6.173 6.012 1.457 8.494-7.63-4.012-7.63 4.012 1.457-8.494-6.173-6.012 8.531-1.247 3.815-7.728z"></path>
+<path fill="#ffd323" style="fill: var(--color1, #ffd323); stroke: var(--color2, #813d06)" stroke="#813d06" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.963" d="M85.926 2.469l3.815 7.728 8.531 1.247-6.173 6.012 1.457 8.494-7.63-4.012-7.63 4.012 1.457-8.494-6.173-6.012 8.531-1.247 3.815-7.728z"></path>
+<path fill="#ffd323" style="fill: var(--color1, #ffd323); stroke: var(--color2, #813d06)" stroke="#813d06" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.963" d="M121.482 2.469l3.815 7.728 8.531 1.247-6.173 6.012 1.457 8.494-7.63-4.012-7.63 4.012 1.457-8.494-6.173-6.012 8.531-1.247 3.815-7.728z"></path>
+<path fill="#ffd323" style="fill: var(--color1, #ffd323); stroke: var(--color2, #813d06)" stroke="#813d06" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.963" d="M157.037 2.469l3.815 7.728 8.531 1.247-6.173 6.012 1.457 8.494-7.63-4.012-7.63 4.012 1.457-8.494-6.173-6.012 8.531-1.247 3.815-7.728z"></path>
+</symbol>
+</defs>
+</svg>
