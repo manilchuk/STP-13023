@@ -73,6 +73,12 @@
   align-items: center;
   gap: 4px;
 }
+.reviews-avatar {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  object-fit: cover;
+}
 .reviews-name {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
@@ -146,6 +152,10 @@
   }
   .reviews-author {
     gap: 12px;
+  }
+  .reviews-avatar {
+    width: 40px;
+    height: 40px;
   }
   .reviews-name {
     font-size: 16px;
