@@ -5,9 +5,10 @@
   background-position: center;
   background-size: cover;
   width: 100%;
-  aspect-ratio: 375 / 570;
+  max-width: 375px;
+  min-height: 555px;
   margin: auto;
-  padding-top: 20%;
+  padding-top: 64px;
 }
 @media screen and (min-resolution: 192dpi) {
   .hero {
@@ -17,7 +18,8 @@
 @media screen and (min-width: 1440px) {
   .hero {
     background-image: url('../img/hero/hero-desktop.webp');
-    aspect-ratio: 1440/980;
+    max-width: 1440px;
+    min-height: 980px;
     padding-top: 140px;
   }
 }
@@ -25,7 +27,8 @@
 @media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
   .hero {
     background-image: url('../img/hero/hero@2x-desktop.webp');
-    aspect-ratio: 1440/980;
+    max-width: 1440px;
+    min-height: 980px;
   }
 }
 .hero-title-img {

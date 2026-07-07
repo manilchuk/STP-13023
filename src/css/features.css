@@ -8,6 +8,7 @@
   padding-bottom: 80px;
   max-width: 100%;
   aspect-ratio: 375 / 757;
+  scroll-margin-top: 0;
 }
 .features-container {
   position: relative;
