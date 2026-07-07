@@ -1,4 +1,6 @@
 /* Static files  Inter */
+@import 'modern-normalize/modern-normalize.css';
+
 @font-face {
   font-family: 'Inter';
   src:
@@ -6,6 +8,7 @@
     url('../fonts/Inter-VariableFont.woff2') format('truetype');
   font-weight: 100 900;
   font-style: normal;
+  font-display: swap;
 }
 
 /* Static files  Luckiest Guy */
@@ -14,6 +17,7 @@
   src: url('../fonts/LuckiestGuy-Regular.woff2') format('truetype');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 /*  Static files Baloo 2 */
@@ -22,6 +26,7 @@
   src: url('../fonts/Baloo2-Medium.woff2') format('truetype');
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -29,6 +34,7 @@
   src: url('../fonts/Baloo2-SemiBold.woff2') format('truetype');
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -36,6 +42,7 @@
   src: url('../fonts/Baloo2-Bold.woff2') format('truetype');
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -43,6 +50,7 @@
   src: url('../fonts/Baloo2-ExtraBold.woff2') format('truetype');
   font-weight: 800;
   font-style: normal;
+  font-display: swap;
 }
 
 :root {
