@@ -183,12 +183,16 @@
   position: relative;
   z-index: 2;
 }
+.hero-burger {
+  display: none;
+}
 
 @media screen and (min-width: 1440px) {
   .hidden {
     display: none;
   }
   .hero-burger {
+    display: block;
     position: absolute;
     width: 130px;
     top: 355px;
@@ -197,6 +201,7 @@
     pointer-events: none;
     z-index: 3;
   }
+
   .hero-burger.show {
     animation: flyBurger 1s forwards;
   }
