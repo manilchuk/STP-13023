@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 100%;
+  width: 100%;
   aspect-ratio: 375 / 570;
   margin: auto;
   padding-top: 20%;
@@ -28,6 +28,11 @@
     aspect-ratio: 1440/980;
   }
 }
+.hero-title-img {
+  max-width: 269px;
+  min-height: 40px;
+  width: 100%;
+}
 
 .hero-title-svg {
   display: flex;
@@ -39,22 +44,26 @@
 .hero-title-top {
   max-width: 205px;
   min-height: 37px;
+  width: 100%;
 }
 @media screen and (min-width: 1440px) {
   .hero-title-top {
     max-width: 1154px;
     min-height: 156px;
+    width: 100%;
   }
 }
 
 .hero-title-bottom-img {
   max-width: 270px;
   min-height: 41px;
+  width: 100%;
 }
 @media screen and (min-width: 1440px) {
   .hero-title-bottom-img {
     max-width: 487px;
     min-height: 75px;
+    width: 100%;
   }
 }
 
