@@ -2,8 +2,8 @@
 @font-face {
   font-family: 'Inter';
   src:
-    url('../fonts/Inter-VariableFont.ttf') format('truetype-variations'),
-    url('../fonts/Inter-VariableFont.ttf') format('truetype');
+    url('../fonts/Inter-VariableFont.woff2') format('truetype-variations'),
+    url('../fonts/Inter-VariableFont.woff2') format('truetype');
   font-weight: 100 900;
   font-style: normal;
 }
@@ -11,7 +11,7 @@
 /* Static files  Luckiest Guy */
 @font-face {
   font-family: 'Luckiest Guy';
-  src: url('../fonts/LuckiestGuy-Regular.ttf') format('truetype');
+  src: url('../fonts/LuckiestGuy-Regular.woff2') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
@@ -19,28 +19,28 @@
 /*  Static files Baloo 2 */
 @font-face {
   font-family: 'Baloo 2';
-  src: url('../fonts/Baloo2-Medium.ttf') format('truetype');
+  src: url('../fonts/Baloo2-Medium.woff2') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Baloo 2';
-  src: url('../fonts/Baloo2-SemiBold.ttf') format('truetype');
+  src: url('../fonts/Baloo2-SemiBold.woff2') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Baloo 2';
-  src: url('../fonts/Baloo2-Bold.ttf') format('truetype');
+  src: url('../fonts/Baloo2-Bold.woff2') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Baloo 2';
-  src: url('../fonts/Baloo2-ExtraBold.ttf') format('truetype');
+  src: url('../fonts/Baloo2-ExtraBold.woff2') format('truetype');
   font-weight: 800;
   font-style: normal;
 }
