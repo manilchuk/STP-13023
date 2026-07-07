@@ -21,7 +21,7 @@
 }
 @media screen and (min-width: 1440px) {
   .contact {
-    padding: 70px o 140px;
+    padding: 70px 0 140px;
   }
   .contact-container {
     display: flex;
