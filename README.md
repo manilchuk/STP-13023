@@ -20,12 +20,11 @@ structure, and smooth user experience across different devices.
 The project was built using:
 
 - HTML5
-- CSS3 / SCSS
+- CSS3
 - JavaScript
 - Vite
 - Responsive Web Design
 - SVG sprites
-- Custom fonts
 - Image optimization
 - Semantic markup
 
