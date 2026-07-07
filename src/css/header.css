@@ -129,8 +129,6 @@
 
   background-color: rgba(8, 12, 9, 0.5);
 
-  opacity: 0;
-  visibility: hidden;
   pointer-events: none;
 
   transition:
@@ -139,9 +137,30 @@
 }
 
 .mobile-menu.is-open {
+  pointer-events: auto;
+}
+
+.mobile-menu[data-visible='close'] {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.mobile-menu[data-visible='open'] {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+}
+
+.burger[data-visible='hide'] {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.burger[data-visible='show'] {
+  opacity: 1;
+  visibility: visible;
 }
 
 .mobile-menu-container {
