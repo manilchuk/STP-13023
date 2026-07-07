@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  background-image: url('../img/hero/hero-mobi.jpg');
+  background-image: url('../img/hero/hero-mobi.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -11,12 +11,12 @@
 }
 @media screen and (min-resolution: 192dpi) {
   .hero {
-    background-image: url('../img/hero/hero@2x-mobi.jpg');
+    background-image: url('../img/hero/hero@2x-mobi.webp');
   }
 }
 @media screen and (min-width: 1440px) {
   .hero {
-    background-image: url('../img/hero/hero-desktop.jpg');
+    background-image: url('../img/hero/hero-desktop.webp');
     aspect-ratio: 1440/980;
     padding-top: 140px;
   }
@@ -24,7 +24,7 @@
 
 @media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
   .hero {
-    background-image: url('../img/hero/hero@2x-desktop.jpg');
+    background-image: url('../img/hero/hero@2x-desktop.webp');
     aspect-ratio: 1440/980;
   }
 }
