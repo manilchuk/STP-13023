@@ -1,65 +1,83 @@
 # TruckFest: Cooking Game Master
 
-Responsive landing page for the mobile cooking game **TruckFest: Cooking Game
+A responsive landing page for the mobile cooking game **TruckFest: Cooking Game
 Master**.
 
-## 📌 About the project
+## 📌 Project Overview
 
-This project is a modern responsive website created to promote the cooking game
-TruckFest: Cooking Game Master.
+This project is a modern promotional landing page designed to showcase a mobile
+cooking game.
 
-The landing page presents the game concept, features, gameplay information,
-gallery, user reviews, and provides a direct link to download the game from
-Google Play.
+The website includes information about the game concept, gameplay features,
+screenshots, user reviews, and a download call-to-action.
 
-The project focuses on responsive design, optimized assets, semantic HTML
-structure, and smooth user experience across different devices.
+The main goal was to transform the design concept into a fully responsive, fast,
+and visually engaging website with clean front-end architecture.
+
+## 👨‍💻 My Role
+
+Front-End Developer
+
+I was responsible for:
+
+- Building responsive layouts
+- Writing semantic HTML structure
+- Creating reusable CSS components
+- Implementing interactive elements with JavaScript
+- Optimizing images and assets
+- Ensuring cross-browser compatibility
 
 ## 🚀 Technologies
 
-The project was built using:
-
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (ES6+)
 - Vite
 - Responsive Web Design
 - SVG sprites
+- CSS animations
 - Image optimization
-- Semantic markup
 
 ## ✨ Features
 
-- Fully responsive layout (mobile, tablet, desktop)
-- Custom game-style typography
-- Optimized images for better performance
-- Retina-ready images (`@2x`)
-- Interactive UI elements
-- Google Play download button
+- Fully responsive design (mobile, tablet, desktop)
+- Pixel-perfect implementation
+- Custom gaming-style typography
+- Optimized images with retina support
+- Interactive UI components
 - Game screenshots gallery
 - Reviews section
-- Semantic HTML structure
-- CSS animations
+- Google Play download button
+- Smooth animations
+- Semantic HTML markup
 
-## ⚙️ Installation
+## ⚙️ Development
 
-Install dependencies: npm install
+- Install dependencies: npm install
+- Run development server: npm run dev
+- Build production version: npm run build
 
-Start the development server: npm run dev
+## 🌐 Live Demo
 
-Create a production build: npm run build
+https://stp-13023.vercel.app/
 
-## 🌐 Deployment
-
-Live demo: https://stp-13023.vercel.app/
-
-## 📋 Code Quality
+## 📈 Performance & Quality
 
 The project includes:
 
-HTML validation CSS optimization Responsive breakpoints Optimized loading of
-images and fonts Performance improvements based on Lighthouse recommendations
+- Responsive breakpoints
+- Optimized assets
+- Clean CSS architecture
+- Proper semantic structure
+- Improved loading performance
+- Cross-browser testing
 
-## 👤 Author
+## 👤 Developer
 
-Created by: Valentyn Manylchuk, Alina Luzhniak and Antonina Mokrytska
+Valentyn Manylchuk
+
+Front-End Developer specializing in:
+
+- Figma to HTML/CSS conversion
+- Responsive landing pages
+- Modern JavaScript interfaces
