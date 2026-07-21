@@ -74,7 +74,7 @@ The project includes:
 
 ## 👤 Developer
 
-Valentyn Manylchuk
+Valentyn Manylchuk, Alina Luzhniak
 
 Front-End Developer specializing in:
 
